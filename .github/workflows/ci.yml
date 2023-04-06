@@ -20,7 +20,7 @@ jobs:
     - name: 🔨 Build Project 
       run: |
         npm i
-        npm audit fix --force
+        npm audit --production
         npm run build
     
     - name: List output files
