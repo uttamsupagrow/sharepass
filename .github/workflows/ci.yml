@@ -16,10 +16,6 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
 
-      with:
-          node-version: "12.x"
-
-    
     - name: Copy .env.prod.example to .env
       run: cp .env.prod.example .env
 
