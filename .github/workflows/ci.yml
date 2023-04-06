@@ -19,8 +19,7 @@ jobs:
    
     - name: 🔨 Build Project 
       run: |
-        npm i
-        npm audit fix
+        npm install
         npm run build
     
     - name: List output files
