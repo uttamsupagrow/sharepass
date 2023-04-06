@@ -10,13 +10,14 @@ jobs:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     
-    strategy:
-      matrix:
-        node-version: [16.x]
+  
     
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
+
+      with:
+          node-version: "12.x"
 
     
     - name: Copy .env.prod.example to .env
