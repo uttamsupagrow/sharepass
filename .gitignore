@@ -3,3 +3,8 @@
 .github/
 .github//workflows
 .github//workflows/ci.yml
+
+!*.yaml
+!*.yml
+!.gitattributes
+!.gitignore
