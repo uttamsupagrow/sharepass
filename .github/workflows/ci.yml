@@ -19,8 +19,7 @@ jobs:
    
     - name: 🔨 Build Project 
       run: |
-        npm i
-        npm run build
+        yarn && yarn build
     
     - name: List output files
       run: find build/ -print
