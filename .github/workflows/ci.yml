@@ -19,7 +19,7 @@ jobs:
    
     - name: 🔨 Build Project 
       run: |
-        npm ci
+        npm i
         npm run build
     
     - name: List output files
