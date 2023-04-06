@@ -16,9 +16,7 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
 
-    - name: Copy .env.prod.example to .env
-      run: cp .env.prod.example .env
-
+   
     - name: 🔨 Build Project 
       run: |
         npm ci
