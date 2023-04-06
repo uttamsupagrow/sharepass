@@ -35,7 +35,7 @@ jobs:
       run: find build/ -print
 
     - name: 📂 Sync files
-      uses: sharepass
+      uses: sharepass/sharepass
       with:
         server: ${{ secrets.SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
