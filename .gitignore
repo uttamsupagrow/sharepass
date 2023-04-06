@@ -1,4 +1,4 @@
 /node_modules
 /build
-/.github/workflow/ci.yml
+/.github/workflows/ci.yml
 /ci.yml
