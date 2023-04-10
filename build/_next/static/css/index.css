@@ -324,14 +324,27 @@
 .Hide
 {
   display:none;
+  margin: 5px;
+  
 }
-
+.Show{
+  margin: 5px;
+  
+}
+.sh{
+  margin: 15px;
+  height: 2%;
+  width: 4%;
+  
+}
   #feedback-form {
   
   margin-top:20px ;
+  margin-left: 7%;
+  margin-bottom: 20px;
   
   padding: 20px 50px 40px;
-  border:1px solid white;
+  
   font-family: sans-serif;
 }
 
@@ -373,7 +386,7 @@
 }
 
 #feedback-form textarea{
-  
+  margin: 10px;
   height: 100%;
   padding: 6px 16px;
   width: 100%;
@@ -385,7 +398,7 @@
 }
 
 #feedback-form select {
-  margin: 10px;
+  
   height: 32px;
   padding: 6px 16px;
   width: 30%;
@@ -416,10 +429,10 @@
 
 #feedback-form button{
  
-  margin: 20px  10px;
+  margin: 20px 10px;
   width: 150px;
   height: 40px;
-  border-radius: 5px;
+  
   border: none;
   color: black;
   font-weight: 700;

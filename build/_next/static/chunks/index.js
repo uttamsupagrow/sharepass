@@ -167,13 +167,13 @@ $('.toggle').click(function() {
 $(document).ready(function() {
   $("#btn_password").click(function() {
   
-    if ($("#id_password").val() == "")
+    if ($("#password_input").val() == "")
     {
-      $("#id_password").effect("shake");
-      $("#id_password").css("border","2px solid red");
+      $("#password_input").effect("shake");
+      $("#password_input").css("border","2px solid red");
     }
     else{
-      $("#id_password").css("border","2px solid white");
+      $("#password_input").css("border","2px solid white");
     }
   });
 
